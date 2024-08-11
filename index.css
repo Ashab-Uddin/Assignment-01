@@ -261,7 +261,7 @@ body {
 }
 .my-current-target-container{
     width: 1100px;
-    height: 1400px;
+    height: 460px;
     border: 2px solid tomato;
     width: 90%;
     margin: 0 auto;
@@ -274,4 +274,96 @@ body {
     width: 90%;
     margin: 0 auto;
     text-align: center;
+}
+.target-card-container{
+    width: 1100px;
+    height: 340px;
+    border: 2px solid darkblue;
+    
+}
+.my-target-card1{
+    width: 360px;
+    height: 300px;
+    border: 2px solid firebrick;
+    margin-top: 10px;
+    padding: 40px;
+    background-color: rgb(255, 246, 243);
+    
+}
+.my-target-card2{
+    width: 360px;
+    height: 300px;
+    border: 2px solid rgb(6, 226, 87);
+    margin-top: 10px;
+    padding: 40px;
+    background-color: rgb(242, 246, 254);
+}
+.my-target-card3{
+    width: 360px;
+    height: 300px;
+    border: 2px solid rgb(33, 4, 222);
+    margin-top: 10px;
+    padding: 40px;
+    background-color: rgb(255, 253, 242);
+    
+}
+.target-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+.my-next-target-container{
+    width: 1100px;
+    height: 860px;
+    border: 2px solid rgb(4, 233, 31);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.my-next-target-title-content{
+    width: 940px;
+    height: 105px;
+    border: 2px solid firebrick;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reatjs-container{
+    width: 1100px;
+    height: 215px;
+    border: 0.5px solid rgb(219, 220, 222);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reatjs-container,img{
+    margin: 10px;
+}
+.reatjs-text{
+    margin: 20px;
+}
+.reatjs-text,p{
+    margin-bottom: 20px;
+}
+.nodejs-container{
+    width: 1100px;
+    height: 215px;
+    border: 0.5px solid rgb(219, 220, 222);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.nodejs-container,img{
+    margin: 10px;
+}
+.nodejs-text{
+    margin: 20px;
+}
+.nodejs-text,p{
+    margin-bottom: 20px;
 }
