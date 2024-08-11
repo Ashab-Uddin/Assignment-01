@@ -250,3 +250,28 @@ body {
 .ispiration-content,p{
     margin-top: 15px;
 }
+.inspiration-youtube{
+    width: 1100px;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgba(114, 220, 7, 0.808);
+    margin-top: 20px;
+
+}
+.my-current-target-container{
+    width: 1100px;
+    height: 1400px;
+    border: 2px solid tomato;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.my-current-target-title-content{
+    width: 900px;
+    height: 100px;
+    border: 2px solid green;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
