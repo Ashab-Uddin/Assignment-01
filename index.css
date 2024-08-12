@@ -416,7 +416,7 @@ a {
     border: 2px solid wheat;
     width: 90%;
     margin: 0 auto;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('assets/handshake.jpg');
     position: relative;
     border-radius: 16px;
     background-repeat: no-repeat;
